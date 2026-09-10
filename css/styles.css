@@ -1,0 +1,27 @@
+/* Evony Resource Advisor — page styles.
+   Base look (colors, header, panels, buttons, forms, tables, badges,
+   notices, footer, etc.) lives in the shared site-wide design system
+   so this tool visually matches the rest of Evony Tools. */
+@import url("../assets/theme.css");
+
+/* Tool-specific tweaks only — everything else comes from the shared
+   theme (.panel, .btn, .tabs, .hero, .badge, .kv-grid, .grid-table,
+   .card-list, .field-row, .notice, etc.). */
+
+.march-card h3 {
+  margin-top: 0;
+}
+
+.march-card label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--text-soft);
+  margin-bottom: 10px;
+}
+
+.march-card label input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+}
